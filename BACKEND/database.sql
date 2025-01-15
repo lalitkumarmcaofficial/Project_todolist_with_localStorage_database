@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS todo_list_db;
+
+USE todo_list_db;
+
+CREATE TABLE IF NOT EXISTS todo_list (
+    SrNo INT AUTO_INCREMENT PRIMARY KEY,
+    Item VARCHAR(255) NOT NULL 
+);
